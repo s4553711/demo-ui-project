@@ -1,0 +1,31 @@
+.fieldRow {
+	padding: 0 10px;
+	line-height: 2.5rem;
+	margin: 5px 0;
+}
+
+.fieldRow > div {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.fieldRow > label {
+	color: #858585;
+	font-weight: 600;
+	display: inline-block;
+	min-width: 110px;
+	width: 100px;
+	text-align: right;
+	margin: 0 5px 0 0;
+	padding: 0;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+.condition_container {
+	display: inline-block;
+	width: 700px;
+	/*height: 100px;*/
+	margin: 0 0 10px 0;
+	/*border: 1px solid #e1e1e1;*/
+	box-sizing: border-box
+}

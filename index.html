@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>This is a test page</title>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,700,500" type="text/css"/>
+		<link rel="stylesheet" href="css/main.css" type="text/css"/>
+		<link rel="stylesheet" href="css/content.css" type="text/css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="content">
+			<div class="fieldRow">
+				<label>Reference</label>
+				<div class="text-row">[Human] 1000 Genomes Project Phase 2, GRCh37</div>
+			</div>
+			<div class="fieldRow">
+				<label>Sample</label>
+				<div class="condition_container">
+					<div class="sample-container">
+						<div class="sample-profile">
+							<div class="sample-alias">
+								<i class="fa fa-flask"></i>
+								<input type="text" value="Sample Name" />
+							</div>
+							<div class="sample-basic-info">
+								<div>Single-read, DNA</div>
+								<div>
+									<div class="vert-content">
+										<span class="block-attr-value">ATCGCGCATGCA</span>
+										<span class="block-attr-name">3'adapter</span>
+									</div>
+								</div>
+								<div>
+									<div class="vert-content">
+										<span class="block-attr-value">10GB</span>
+										<span class="block-attr-name">20 files</span>
+									</div>
+								</div>
+							</div>
+							<div class="sample-channel">
+								<div class="ui-checkbox channel-content">
+									<input type="checkbox" />
+									<span>Set channel type as long</span>
+								</div>
+								<div class="channel-content">
+									<div class="ui-checkbox">
+										<input type="checkbox" class="set-custom-insert" />
+										<span>Expected insert size for analysis</span>
+										<input type="text" value="" class="denovo-insert-size" disabled/>
+									</div>
+								</div>
+							</div>
+							<div class="sample-bottom-bar">
+								<div class="fastq-button">
+									<i class="fa fa-bars"></i> Fastq Detail
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fieldRow">
+				<label></label>
+				<div class="text-row">
+					<button id="switch-channel-btn">Show or Hide channel info</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
