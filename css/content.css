@@ -1,3 +1,7 @@
+.content {
+	width: 750px; 
+}
+
 .fieldRow {
 	padding: 0 10px;
 	line-height: 2.5rem;
@@ -23,9 +27,26 @@
 }
 .condition_container {
 	display: inline-block;
-	width: 700px;
+	width: 600px;
 	/*height: 100px;*/
 	margin: 0 0 10px 0;
 	/*border: 1px solid #e1e1e1;*/
 	box-sizing: border-box
+}
+.fieldRow > .radio-row {
+	padding-left: 5px;
+	border-left: 1px solid #e1e1e1;
+}
+.fieldRow .radio-block {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 2rem;
+	flex: 0 1 13px;
+}
+.fieldRow .radio-text {
+	display: inline-block;
+	padding: 0 0 0 2px;
+	text-overflow: clip;
+	line-height: 2rem;
+	flex: 1;
 }

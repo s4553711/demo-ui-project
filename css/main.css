@@ -15,6 +15,7 @@ input[type="text"] {
 }
 .sample-container {
 	margin-bottom: 5px;
+	font-size: .9rem;
 }
 .sample-profile {
 	border: 1px solid #d4d4d4;
@@ -79,7 +80,7 @@ input[type="text"] {
 }
 
 .sample-bottom-bar {
-	line-height: 1.5rem;
+	line-height: 1.3rem;
 	border-top: 1px solid #cacaca;
 	padding: 0;
 	background: #e4e4e4;
@@ -88,11 +89,10 @@ input[type="text"] {
 	margin: 5px;
 	border: 1px solid #cacaca;
 	cursor: pointer;
-	line-height: 1.5rem;
+	line-height: 1.4rem;
 	padding: 0 8px;
 	display: inline-block;
 	background: #f1f1f1;
-	font-size: .95rem;
 }
 .denovo-insert-size {
 	margin: 0 0 0 5px;
