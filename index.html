@@ -17,8 +17,66 @@
 				<div class="text-row">[Human] 1000 Genomes Project Phase 2, GRCh37</div>
 			</div>
 			<div class="fieldRow">
+				<label>Library Type</label>
+				<div class="radio-row">
+				    <div>
+						<div class="radio-block"><input type="radio" required="" pattern="\s+" name="libtype" value="fr-unstranded"></div>
+						<div class="radio-text">Unstranded (Standard Illumina)<span class="errorMessage"></span></div>
+					</div>
+					<div>
+						<div class="radio-block"><input type="radio" required="" pattern="\s+" name="libtype" value="fr-firststrand"></div>
+						<div class="radio-text">First strand (dUTP, NSR, NNSR)<span class="errorMessage"></span></div>
+					</div>  
+				</div>
+			</div>
+			<div class="fieldRow">
+				<label>SNP</label>
+				<div class="text-row">Human SNP</div>
+			</div>
+			<div class="fieldRow">
 				<label>Sample</label>
 				<div class="condition_container">
+					<div class="sample-container">
+						<div class="sample-profile">
+							<div class="sample-alias">
+								<i class="fa fa-flask"></i>
+								<input type="text" value="Sample Name" />
+							</div>
+							<div class="sample-basic-info">
+								<div>Single-read, DNA</div>
+								<div>
+									<div class="vert-content">
+										<span class="block-attr-value">ATCGCGCATGCA</span>
+										<span class="block-attr-name">3'adapter</span>
+									</div>
+								</div>
+								<div>
+									<div class="vert-content">
+										<span class="block-attr-value">10GB</span>
+										<span class="block-attr-name">20 files</span>
+									</div>
+								</div>
+							</div>
+							<div class="sample-channel">
+								<div class="ui-checkbox channel-content">
+									<input type="checkbox" />
+									<span>Set channel type as long</span>
+								</div>
+								<div class="channel-content">
+									<div class="ui-checkbox">
+										<input type="checkbox" class="set-custom-insert" />
+										<span>Expected insert size for analysis</span>
+										<input type="text" value="" class="denovo-insert-size" disabled/>
+									</div>
+								</div>
+							</div>
+							<div class="sample-bottom-bar">
+								<div class="fastq-button">
+									<i class="fa fa-bars"></i> Fastq Detail
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="sample-container">
 						<div class="sample-profile">
 							<div class="sample-alias">
